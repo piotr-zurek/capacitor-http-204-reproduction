@@ -1,12 +1,8 @@
-## Created with Capacitor Create App
+### Capacitor HTTP issue reproduction
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
-and comes with a very minimal shell for building an app.
+https://github.com/ionic-team/capacitor/issues/6250
 
-### Running this example
-
-To run the provided example, you can use `npm start` command.
-
-```bash
-npm start
-```
+1. Build app, sync and run on Android
+2. Connect Chrome Dev Tools to instance
+3. Click on "Send request" button
+4. Check console
